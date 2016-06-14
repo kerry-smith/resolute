@@ -1,0 +1,189 @@
+/* Resolute Custom Stylesheet */
+
+.light-blue.lighten-1 {
+  background-color: #7da0b0 !important;
+}
+
+.light-blue.lighten-2 {
+  background-color: #8fb7c9 !important;
+}
+
+.light-blue.lighten-3 {
+  background-color: #a1cee2 !important;
+}
+
+.light-blue.lighten-4 {
+  background-color: #b3e5fc !important;
+}
+
+.grey.darken-2 {
+  background-color: #555 !important;
+}
+
+h5 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.section {
+  padding-top: 2rem;
+  margin-bottom: 40px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.dropdown-button {
+  background-color: #444;
+}
+
+#menu-dropdown li a {
+  color: #444;
+}
+
+#menu-dropdown li a:hover {
+  background-color: #eaeaea;
+}
+
+
+#header-banner .section {
+  padding: 60px 0;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+  background: linear-gradient(
+                rgba(20,20,20, .65),
+                rgba(20,20,20, .65));
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #header-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #header-banner .section {
+    top: 0;
+  }
+
+  #contact form {
+    margin-bottom: 60px;
+  }
+}
+
+#services .card {
+  background:
+    linear-gradient(
+      #f0f0f0,
+      #ececec
+    );
+}
+
+@media only screen and (max-width : 600px) {
+  h2.header {
+    font-size: 2.5rem;
+  }
+  h4.header {
+    font-size: 1.7rem;
+  }
+  #about h4 {
+    font-size: 1.7rem;
+  }
+
+  .dropdown-button.btn-flat {
+    padding: 0 1rem;
+  }
+}
+
+#contact .divider {
+  margin-bottom: 2rem; 
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #7da0b0;
+  box-shadow: 0 1px 0 0 #7da0b0;
+  color: #555;
+}
+
+#contact input[type=text]:focus + label,
+#contact input[type=tel]:focus + label,
+#contact input[type=email]:focus + label,
+#contact textarea.materialize-textarea:focus + label {
+  color: #7da0b0;
+}
+
+#contact .collection-item,
+#contact .collection {
+  border: none;
+  padding: 8px 0;
+}
+
+#contact .collection li,
+#contact .collection li a {
+    color: #555;
+}
+
+#contact .collection li a:hover,
+#contact .collection li a:focus {
+    text-decoration: underline;
+}
+
+.collection-item span {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #555;
+  margin-right: 10px;
+}
+
+footer {
+  background:
+    linear-gradient(to bottom,
+      #424242,
+      #212121
+    );
+}
+
+/* Mozilla based browsers */
+::-moz-selection {
+background-color: #FF68B0;
+color: #000;
+}
+
+/* Works in Safari */
+::selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+
+/* Works in Opera */
+::-o-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+::-ms-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+
+/* Works in Internet Explorer */
+::-webkit-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
