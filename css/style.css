@@ -129,8 +129,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
   color: #7da0b0;
 }
 
-#contact .collection-item,
-#contact .collection {
+#contact .collection,
+#contact .collection-item  {
   border: none;
   padding: 8px 0;
 }
@@ -148,8 +148,14 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .collection-item span {
   text-transform: uppercase;
   font-size: 1.1rem;
-  color: #555;
+  color: #444;
   margin-right: 10px;
+}
+
+.modal .modal-content .collection,
+.modal .modal-content .collection-item {
+  border: none;
+  background: transparent;
 }
 
 footer {
@@ -158,6 +164,23 @@ footer {
       #424242,
       #212121
     );
+}
+
+.linkedIn {
+  color: #fff;
+  margin-left: 8px; 
+}
+
+.linkedIn span {  
+  background-color: #0077b5;
+  color: #fff;
+  border-radius: 2px;
+  padding: 0 2px;
+  margin-left: 1px;
+}
+
+.page-footer .linkedIn:hover {
+  text-decoration: underline;
 }
 
 /* Mozilla based browsers */
