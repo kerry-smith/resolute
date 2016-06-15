@@ -183,6 +183,12 @@ footer {
   text-decoration: underline;
 }
 
+.fixed-action-btn {
+  right: 10px;
+  bottom: 40px;
+
+}
+
 /* Mozilla based browsers */
 ::-moz-selection {
 background-color: #FF68B0;
