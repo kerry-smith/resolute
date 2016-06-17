@@ -26,6 +26,7 @@ h5 {
 
 p {
   line-height: 2rem;
+  font-size: 1.1rem;
 }
 
 .section {
@@ -34,14 +35,8 @@ p {
 }
 
 nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-.dropdown-button {
-  background-color: #444;
-}
-
+nav .brand-logo,
+.dropdown-button,
 #menu-dropdown li a {
   color: #444;
 }
@@ -101,10 +96,6 @@ nav .brand-logo {
   }
   #about h4 {
     font-size: 1.7rem;
-  }
-
-  .dropdown-button.btn-flat {
-    padding: 0 1rem;
   }
 }
 
