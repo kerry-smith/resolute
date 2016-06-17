@@ -15,12 +15,13 @@
   <div class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo left">Resolute HCA</a>
+        <a id="logo-container" href="#" class="brand-logo left">Resolute HCA
+        </a>
 
         <!-- Dropdown Trigger -->
         <ul class="right">
           <li>
-            <a class="dropdown-button btn-flat white-text" data-activates="menu-dropdown">Menu</a>
+            <a class="dropdown-button" data-activates="menu-dropdown"><i class="material-icons">menu</i></a>
           </li>
         </ul>
         <!-- Dropdown Structure -->
@@ -57,6 +58,7 @@
     </div>
   </div>
   <!-- END OF HEADER -->
+
   <!-- ABOUT -->
   <div id="about" class="container scrollspy">
     <div class="section">
@@ -79,7 +81,7 @@
       <div class="container">
         <div class="row">
           <div class="col l8 m12">
-            <ul class="collapsible" data-collapsible="accordion">
+            <ul class="collapsible" data-collapsible="expandable">
               <li>
                 <div class="collapsible-header active grey darken-2 white-text"><i class="material-icons">build</i>OUR SERVICES</div>
                 <div class="collapsible-body white">
@@ -204,8 +206,7 @@
         <div class="col l6 s12">
           <h5>Send Us A Message</h5>
           <div class="divider"></div>
-          <form action="https://formspree.io/smithdevco@gmail.com"
-          method="POST">
+          <form id="contactform" method="POST">
             <div class="row">
               <div class="input-field col l6 m6 s12">
                 <input placeholder="John Smith" id="name" name="_name" type="text">
@@ -224,6 +225,8 @@
             </div>
             <div class="row">
               <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_subject" value="Resolute HCA Contact Form" />
+              <input type="hidden" name="_next" value="https://kerry-smith.github.io/resolute/thank-you" />
             </div>
             <div class="row">
               <div class="input-field col s12">
@@ -233,11 +236,12 @@
             </div>
             <div class="row">
               <div class="col s12 center">
-              <button class="btn waves-effect waves-light light-blue lighten-1" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
+              <button class="btn waves-effect waves-light light-blue lighten-1" type="submit" name="action">Send<i class="material-icons right">send</i></button>
               </div>
             </div>
           </form>
         </div>
+
         <div class="col l5 offset-l1 s12">
           <h5>Contact Info</h5>
           <div class="divider"></div>
@@ -477,6 +481,10 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'smithdevco' + '@' + 'gmail' + '.' + 'com');
+  </script>
 
   </body>
 </html>
