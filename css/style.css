@@ -97,6 +97,12 @@ nav .brand-logo,
   #about h4 {
     font-size: 1.7rem;
   }
+  #thank-you h4 {
+    font-size: 1.5rem;
+  }
+  #about h5 {
+    font-size: 1.4rem;
+  }
 }
 
 #contact .divider {
@@ -178,6 +184,20 @@ footer {
   right: 10px;
   bottom: 40px;
 
+}
+
+
+#thank-you {
+  padding-top: 15%;
+}
+
+#thank-you h5 {
+  text-transform: none;
+  color: rgba(50, 50, 50, .8);
+}
+
+#thank-you h4 {
+  color: rgba(50, 50, 50, .9);
 }
 
 /* Mozilla based browsers */
