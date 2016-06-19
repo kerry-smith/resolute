@@ -10,7 +10,8 @@
     $('.modal-trigger').leanModal();
     $('.dropdown-button').dropdown({
       constrain_width: false, // Does not change width of dropdown to that of the activator
-      hover: false, // Activate on hover
+      hover: true, // Activate on hover
+      closeOnClick: true
     }
   );
 
