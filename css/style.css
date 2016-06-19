@@ -99,6 +99,7 @@ nav .brand-logo,
   }
   #thank-you h4 {
     font-size: 1.6rem;
+    text-transform: uppercase;
   }
   #about h5 {
     font-size: 1.4rem;
