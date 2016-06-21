@@ -34,8 +34,10 @@ p {
   margin-bottom: 40px;
 }
 
-nav ul a,
-nav .brand-logo,
+.brand-logo img {
+  margin-top: 10px;
+}
+
 .dropdown-button,
 #menu-dropdown li a {
   color: #444;
