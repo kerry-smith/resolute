@@ -34,13 +34,14 @@ p {
   margin-bottom: 40px;
 }
 
-.brand-logo img {
+.brand-logo {
   margin-top: 10px;
 }
 
 .dropdown-button,
 #menu-dropdown li a {
   color: #444;
+  text-transform: uppercase;
 }
 
 #menu-dropdown li a:hover {
