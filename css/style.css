@@ -79,7 +79,7 @@ p {
 .required {
   color: tomato;
   font-style: italic;
-  font-size: .8rem;
+  font-size: .7rem;
   text-transform: none;
   padding-left: 15px;
 }
