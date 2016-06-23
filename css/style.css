@@ -1,5 +1,4 @@
-/* Resolute Custom Stylesheet */
-
+/***** COLORS *****/
 .light-blue.lighten-1 {
   background-color: #7da0b0 !important;
 }
@@ -20,13 +19,14 @@
   background-color: #555 !important;
 }
 
+/***** GLOBAL STYLES *****/
 h5 {
   text-transform: uppercase;
 }
 
 p {
   line-height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .section {
@@ -34,6 +34,7 @@ p {
   margin-bottom: 40px;
 }
 
+/***** NAVBAR *****/
 #logo {
   margin-top: 10px;
   height: 40px;
@@ -56,7 +57,7 @@ p {
   background-color: #eaeaea;
 }
 
-
+/***** HEADER *****/
 #header-banner .section {
   padding: 60px 0;
 }
@@ -70,56 +71,7 @@ p {
                 rgba(20,20,20, .65));
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #header-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 768px) {
-  #header-banner .section {
-    top: 0;
-  }
-
-  #contact form {
-    margin-bottom: 60px;
-  }
-}
-
-#services .card {
-  background:
-    linear-gradient(
-      #f0f0f0,
-      #ececec
-    );
-}
-
-@media only screen and (max-width : 600px) {
-  h2.header {
-    font-size: 2.5rem;
-  }
-  h4.header {
-    font-size: 1.7rem;
-  }
-  #about h4 {
-    font-size: 1.7rem;
-  }
-  #thank-you h4 {
-    font-size: 1.7rem;
-  }
-  #about h5 {
-    font-size: 1.4rem;
-  }
-}
-
-#contact .divider {
-  margin-bottom: 2rem; 
-}
-
+/***** CONTACT *****/
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
@@ -166,6 +118,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   background: transparent;
 }
 
+/***** FOOTER *****/
 footer {
   background:
     linear-gradient(to bottom,
@@ -191,16 +144,17 @@ footer {
   text-decoration: underline;
 }
 
+/***** MOBILE FAB *****/
 .fixed-action-btn {
   right: 10px;
   bottom: 40px;
-
 }
 
 .fixed-action-btn i {
   font-size: 2rem;
 }
 
+/***** THANK YOU PAGE *****/
 #thank-you {
   padding-top: 15%;
 }
@@ -214,6 +168,7 @@ footer {
   color: rgba(50, 50, 50, .9);
 }
 
+/***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
 background-color: #FF68B0;
@@ -240,4 +195,55 @@ color: #FFF;
 ::-webkit-selection {
 background-color: #FF68B0;
 color: #FFF;
+}
+
+/***** MEDIA QUERIES *****/
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #header-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #header-banner .section {
+    top: 0;
+  }
+
+  #contact form {
+    margin-bottom: 60px;
+  }
+}
+
+  #services .card {
+    background:
+      linear-gradient(
+        #f0f0f0,
+        #ececec
+      );
+}
+
+@media only screen and (max-width : 600px) {
+  h2.header {
+    font-size: 2.5rem;
+  }
+  h4.header {
+    font-size: 1.7rem;
+  }
+  #about h4 {
+    font-size: 1.7rem;
+  }
+  #thank-you h4 {
+    font-size: 1.6rem;
+  }
+  #about h5 {
+    font-size: 1.4rem;
+  }
+}
+
+#contact .divider {
+  margin-bottom: 2rem; 
 }
