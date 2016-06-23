@@ -214,7 +214,7 @@
                 <label for="name">Full Name:</label>
               </div>
               <div class="input-field col l6 m6 s12">
-                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel" pattern="[0-9]+" title="Numbers only" required minlength=10>
+                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel" pattern="^(1\s*[-\/\.]?)?(\((\d{3})\)|(\d{3}))\s*[-\/\.]?\s*(\d{3})\s*[-\/\.]?\s*(\d{4})\s*(([xX]|[eE][xX][tT])\.?\s*(\d+))*$"  title="Include area code | Numbers only" required minlength=10>
                 <label for="phone">Phone Number:</label>
               </div>
             </div>
