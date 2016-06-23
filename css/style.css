@@ -76,6 +76,10 @@ p {
 }
 
 /***** CONTACT *****/
+#contact p {
+  padding-bottom: 30px;
+}
+
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
