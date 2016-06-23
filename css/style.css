@@ -40,6 +40,7 @@ p {
 
 .modal {
   width: 80% !important;
+  max-height: 80% !important;
 }
 
 /***** NAVBAR *****/
