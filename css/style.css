@@ -189,6 +189,9 @@ footer {
 
 }
 
+.fixed-action-btn i {
+  font-size: 2rem;
+}
 
 #thank-you {
   padding-top: 15%;
