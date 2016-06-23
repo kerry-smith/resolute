@@ -210,11 +210,11 @@
           <form action="https://formspree.io/smithdevco@gmail.com" method="POST">
             <div class="row">
               <div class="input-field col l6 m6 s12">
-                <input placeholder="John Smith" id="name" name="_name" type="text" required>
+                <input placeholder="John Smith" id="name" name="_name" type="text" pattern="[A-Za-z]+" title="Letters only" required minlength=4>
                 <label for="name">Full Name:</label>
               </div>
               <div class="input-field col l6 m6 s12">
-                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel" required>
+                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel" pattern="[0-9]+" title="Numbers only" required minlength=10>
                 <label for="phone">Phone Number:</label>
               </div>
             </div>
