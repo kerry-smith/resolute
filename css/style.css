@@ -76,6 +76,14 @@ p {
 }
 
 /***** CONTACT *****/
+.required {
+  color: tomato;
+  font-style: italic;
+  font-size: .8rem;
+  text-transform: none;
+  padding-left: 15px;
+}
+
 #contact p {
   padding-bottom: 30px;
 }
