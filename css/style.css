@@ -38,6 +38,10 @@ p {
   margin-bottom: 40px;
 }
 
+.modal {
+  width: 70% !important;
+}
+
 /***** NAVBAR *****/
 #logo {
   margin-top: 10px;
