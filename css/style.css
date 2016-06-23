@@ -34,8 +34,16 @@ p {
   margin-bottom: 40px;
 }
 
-.brand-logo {
+#logo {
   margin-top: 10px;
+  height: 40px;
+}
+
+.brand-logo span {
+  color: #444;
+  padding-left: 10px;
+  position: relative;
+  top: -9px;
 }
 
 .dropdown-button,
