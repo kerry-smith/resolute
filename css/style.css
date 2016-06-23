@@ -241,7 +241,8 @@ color: #FFF;
   #header-banner .section {
     top: 0;
   }
-
+  
+  #process img,
   #contact form {
     margin-bottom: 60px;
   }
@@ -272,6 +273,6 @@ color: #FFF;
     font-size: 1.4rem;
   }
   .required {
-    padding-left: 0px;
+    padding-left: 0;
 }
 }
