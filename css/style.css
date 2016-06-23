@@ -278,5 +278,8 @@ color: #FFF;
   }
   .required {
     padding-left: 0;
-}
+  }
+  .modal {
+  width: 70% !important;
+  }
 }
