@@ -131,6 +131,11 @@ footer {
     );
 }
 
+.page-footer ul li:first-child,
+.page-footer ul li a:first-child {
+  margin-bottom: 15px;
+}
+
 .linkedIn {
   color: #fff;
   margin-left: 8px; 
