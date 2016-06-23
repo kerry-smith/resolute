@@ -89,6 +89,10 @@ textarea.materialize-textarea:focus:not([readonly]) {
   color: #7da0b0;
 }
 
+#contact .divider {
+  margin-bottom: 2rem; 
+}
+
 #contact .collection,
 #contact .collection-item  {
   border: none;
@@ -242,8 +246,4 @@ color: #FFF;
   #about h5 {
     font-size: 1.4rem;
   }
-}
-
-#contact .divider {
-  margin-bottom: 2rem; 
 }
