@@ -209,17 +209,17 @@
           <form action="https://formspree.io/smithdevco@gmail.com" method="POST">
             <div class="row">
               <div class="input-field col l6 m6 s12">
-                <input placeholder="John Smith" id="name" name="_name" type="text">
+                <input placeholder="John Smith" id="name" name="_name" type="text" required>
                 <label for="name">Full Name:</label>
               </div>
               <div class="input-field col l6 m6 s12">
-                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel">
+                <input placeholder="123-456-7890" id="phone" name="_phone" type="tel" required>
                 <label for="phone">Phone Number:</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input placeholder="example@gmail.com" id="email" name="_replyto" type="email" class="validate">
+                <input placeholder="example@gmail.com" id="email" name="_replyto" type="email" class="validate" required>
                 <label data-error="Please check your address." for="email">Email:</label>
               </div>
             </div>
@@ -230,7 +230,7 @@
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <textarea placeholder="What would you like us to know?" id="textarea1" name="_message" class="materialize-textarea"></textarea>
+                <textarea placeholder="What would you like us to know?" id="textarea1" name="_message" class="materialize-textarea" required></textarea>
                 <label for="textarea1">Message:</label>
               </div>
             </div>
