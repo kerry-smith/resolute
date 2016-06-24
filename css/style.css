@@ -205,30 +205,25 @@ footer {
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
-background-color: #FF68B0;
-color: #000;
+background-color: #fff2a8;
 }
 
 /* Works in Safari */
 ::selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #fff2a8;
 }
 
 /* Works in Opera */
 ::-o-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #fff2a8;
 }
 ::-ms-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #fff2a8;
 }
 
 /* Works in Internet Explorer */
 ::-webkit-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #fff2a8;
 }
 
 /***** MEDIA QUERIES *****/
