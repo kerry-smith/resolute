@@ -34,8 +34,7 @@ p {
 }
 
 .section {
-  padding-top: 2rem;
-  margin-bottom: 40px;
+  padding: 5rem 0;
 }
 
 .modal {
@@ -68,7 +67,7 @@ p {
 
 /***** HEADER *****/
 #header-banner .section {
-  padding: 60px 0;
+  padding: 70px 0 60px;
 }
 
 .parallax-container {
@@ -263,6 +262,9 @@ background-color: #fff2a8;
   h4.header {
     font-size: 1.7rem;
   }
+  .section {
+  padding: 2rem 0;
+}
   #about h4 {
     font-size: 1.7rem;
   }
