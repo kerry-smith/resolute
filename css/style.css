@@ -187,6 +187,21 @@ footer {
   font-size: 2rem;
 }
 
+/***** THANK YOU PAGE *****/
+#thank-you .card {
+  margin: 3rem 0;
+}
+
+#thank-you h4 {
+  color: #444;
+  font-size: 1.7rem;
+}
+
+#thank-you h5 {
+  color: #444;
+  font-size: 1.4rem;
+}
+
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
