@@ -192,6 +192,11 @@ footer {
   margin: 3rem 0;
 }
 
+#thank-you .card-title {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
 #thank-you .card-content h4 {
   color: #444;
   font-size: 1.6rem;
