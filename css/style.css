@@ -192,12 +192,13 @@ footer {
   margin: 3rem 0;
 }
 
-#thank-you h4 {
+#thank-you .card-content h4 {
   color: #444;
   font-size: 1.7rem;
 }
 
-#thank-you h5 {
+#thank-you .card-content h5 {
+  text-transform: none;
   color: #444;
   font-size: 1.4rem;
 }
@@ -268,9 +269,6 @@ background-color: #fff2a8;
 }
   #about h4 {
     font-size: 1.7rem;
-  }
-  #thank-you h4 {
-    font-size: 1.6rem;
   }
   #about h5 {
     font-size: 1.4rem;
