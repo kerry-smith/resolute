@@ -187,20 +187,6 @@ footer {
   font-size: 2rem;
 }
 
-/***** THANK YOU PAGE *****/
-#thank-you {
-  padding-top: 15%;
-}
-
-#thank-you h5 {
-  text-transform: none;
-  color: rgba(50, 50, 50, .8);
-}
-
-#thank-you h4 {
-  color: rgba(50, 50, 50, .9);
-}
-
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
