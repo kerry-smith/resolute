@@ -87,7 +87,7 @@ p {
 /***** PROCESS *****/
 #process .section {
   width: 100%;
-  background: linear-gradient( #f0f0f0, #ececec );
+  background: linear-gradient( #ececec, #f0f0f0 );
 }
 
 /***** CONTACT *****/
