@@ -19,6 +19,10 @@
   background-color: #555 !important;
 }
 
+.theme-color {
+  background-color: rgba(0, 51, 128, 0.8)
+}
+
 /***** GLOBAL STYLES *****/
 html {
   color: #444;
