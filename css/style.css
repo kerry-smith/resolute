@@ -79,6 +79,17 @@ p {
                 rgba(20,20,20, .65));
 }
 
+/***** SERVICES *****/
+#services .container {
+  width: 90%;
+}
+
+/***** PROCESS *****/
+#process .section {
+  width: 100%;
+  background: linear-gradient( #f0f0f0, #ececec );
+}
+
 /***** CONTACT *****/
 .required {
   color: tomato;
