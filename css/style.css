@@ -79,6 +79,11 @@ p {
                 rgba(20,20,20, .65));
 }
 
+/***** ABOUT *****/
+#about .btn-large {
+  margin-top: 30px;;
+}
+
 /***** SERVICES *****/
 #services .container {
   width: 90%;
