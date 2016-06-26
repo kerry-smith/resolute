@@ -81,7 +81,7 @@ p {
 
 /***** ABOUT *****/
 #about .btn-large {
-  margin-top: 30px;;
+  margin-top: 30px;
 }
 
 /***** SERVICES *****/
@@ -287,12 +287,15 @@ background-color: #fff2a8;
   }
   .section {
   padding: 2rem 0;
-}
+  }
   #about h4 {
     font-size: 1.7rem;
   }
   #about h5 {
     font-size: 1.4rem;
+  }
+  #about .btn-large {
+    margin-top: 10px;
   }
   .required {
     padding-left: 0;
