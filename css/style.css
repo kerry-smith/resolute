@@ -218,29 +218,30 @@ textarea.materialize-textarea {
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
-background-color: #FF68B0;
+background-color: #FFF498;
 color: #000;
 }
 
 /* Works in Safari */
 ::selection {
-background-color: #fff2a8;
+background-color: #FFF498;
+color: #555;
 }
 
 /* Works in Opera */
 ::-o-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #FFF498;
+color: #555;
 }
 ::-ms-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #FFF498;
+color: #555;
 }
 
 /* Works in Internet Explorer */
 ::-webkit-selection {
-background-color: #FF68B0;
-color: #FFF;
+background-color: #FFF498;
+color: #555;
 }
 
 /***** MEDIA QUERIES *****/
