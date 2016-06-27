@@ -73,10 +73,10 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  color: rgba(253,253,253,.9);
+  color: rgba(255,255,255,.9);
   background: linear-gradient(
-                rgba(0,0,0, .4),
-                rgba(0,0,0, .4));
+                rgba(0,0,0, .6),
+                rgba(0,0,0, .6));
 }
 
 /***** ABOUT *****/
