@@ -96,7 +96,7 @@ p {
 
 /***** CONTACT *****/
 .required {
-  color: tomato;
+  color: #E57373;
   font-style: italic;
   font-size: .8rem;
   text-transform: none;
@@ -112,8 +112,8 @@ input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
 input[type=tel]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #7da0b0;
-  box-shadow: 0 1px 0 0 #7da0b0;
+  border-bottom: 1px solid #81C784;
+  box-shadow: 0 1px 0 0 #81C784;
   color: #555;
 }
 
@@ -125,7 +125,7 @@ textarea.materialize-textarea {
 #contact input[type=tel]:focus + label,
 #contact input[type=email]:focus + label,
 #contact textarea.materialize-textarea:focus + label {
-  color: #7da0b0;
+  color: #81C784;
 }
 
 #contact .divider {
