@@ -90,6 +90,10 @@ p {
   width: 100%;
 }
 
+#materialbox-overlay {
+  background-color: #fff;
+}
+
 /***** CONTACT *****/
 .required {
   color: tomato;
