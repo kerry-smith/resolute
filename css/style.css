@@ -158,14 +158,6 @@ textarea.materialize-textarea {
 }
 
 /***** FOOTER *****/
-footer {
-  background:
-    linear-gradient(to bottom,
-      #424242,
-      #212121
-    );
-}
-
 .page-footer ul li:first-child,
 .page-footer ul li a:first-child {
   margin-bottom: 15px;
