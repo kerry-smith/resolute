@@ -88,7 +88,6 @@ p {
 /***** PROCESS *****/
 #process .section {
   width: 100%;
-  background: linear-gradient( #f0f0f0, #ececec );
 }
 
 /***** CONTACT *****/
@@ -187,6 +186,10 @@ footer {
 
 .page-footer .linkedIn:hover {
   text-decoration: underline;
+}
+
+.page-footer .modal-trigger {
+  text-transform: uppercase;
 }
 
 /***** MOBILE FAB *****/
