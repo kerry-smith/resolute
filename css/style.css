@@ -273,14 +273,6 @@ color: #FFF;
   }
 }
 
-  #services .card {
-    background:
-      linear-gradient(
-        #f0f0f0,
-        #ececec
-      );
-}
-
 @media only screen and (max-width : 600px) {
   h2.header {
     font-size: 2.5rem;
