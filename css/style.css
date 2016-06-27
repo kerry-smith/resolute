@@ -261,7 +261,8 @@ color: #555;
   }
   
   #process img,
-  #contact form {
+  #contact form,
+  #contactform .green btn {
     margin-bottom: 60px;
   }
 }
@@ -281,6 +282,9 @@ color: #555;
   
   #about .btn-large {
     margin-top: 30px;
+  }
+  #services .card {
+    margin-top: 60px;
   }
   .required {
     padding-left: 0;
