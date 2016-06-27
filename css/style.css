@@ -263,11 +263,17 @@ color: #555;
   #header-banner .section {
     top: 0;
   }
+  #about .btn-large {
+    margin: 15px 0 -30px;
+  }
+
+  #services .card {
+    margin-top: 60px;
+  }
   
   #process img,
-  #contact form,
-  #contactform .green btn {
-    margin-bottom: 60px;
+  #contact form {
+    margin-bottom: 120px;
   }
 }
 
@@ -284,12 +290,6 @@ color: #555;
     font-size: 1.7rem;
   }
   
-  #about .btn-large {
-    margin-top: 15px;
-  }
-  #services .card {
-    margin-top: 60px;
-  }
   .required {
     padding-left: 0;
   }
