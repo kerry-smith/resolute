@@ -14,6 +14,10 @@
       alignment: 'right' // Displays dropdown with edge aligned to the right of button
     }
   );
+  
+  $('.dropdown-button').on('click', function(){
+        $("#menu-dropdown").hide();
+    });
 
 
   }); // end of document ready
