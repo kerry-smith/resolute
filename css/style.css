@@ -118,8 +118,8 @@ input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
 input[type=tel]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #81C784;
-  box-shadow: 0 1px 0 0 #81C784;
+  border-bottom: 1px solid #64B5F6;
+  box-shadow: 0 1px 0 0 #64B5F6;
   color: #555;
 }
 
@@ -131,7 +131,7 @@ textarea.materialize-textarea {
 #contact input[type=tel]:focus + label,
 #contact input[type=email]:focus + label,
 #contact textarea.materialize-textarea:focus + label {
-  color: #81C784;
+  color: #64B5F6;
 }
 
 #contact .divider {
