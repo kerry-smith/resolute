@@ -18,7 +18,8 @@
 /***** GLOBAL STYLES *****/
 html,
 body {
-  color: #fff;
+  background-color: #fff;
+  color: #444;
 }
 
 h5 {
