@@ -8,14 +8,9 @@
     });
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
-    $('.dropdown-button').dropdown({
-      constrain_width: false, // Does not change width of dropdown to that of the activator
-      hover: true, // Activate on hover
-      alignment: 'right' // Displays dropdown with edge aligned to the right of button
-    }
-  );
+    
   
-  $('.dropdown-button').on('click', function(){
+  $('.dropdown-button')dropdown.on('click', function(){
         $("#menu-dropdown").hide();
     });
 
