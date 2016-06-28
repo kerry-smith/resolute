@@ -16,8 +16,9 @@
 }
 
 /***** GLOBAL STYLES *****/
-html {
-  color: #444;
+html,
+body {
+  color: #fff;
 }
 
 h5 {
