@@ -263,6 +263,10 @@ textarea.materialize-textarea {
   bottom: 35px;
 }
 
+.fixed-action-btn .btn-large {
+  border-radius: 50%;
+}
+
 .fixed-action-btn i {
   font-size: 2rem;
 }
