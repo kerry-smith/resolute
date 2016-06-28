@@ -193,6 +193,70 @@ textarea.materialize-textarea {
   text-transform: uppercase;
 }
 
+@-webkit-keyframes heartbeat {
+    0%, 100%, 16%, 32% {
+        -webkit-transform: scale3d(1, 1, 1)
+    }
+    24%,
+    8% {
+        -webkit-transform: scale3d(1.1, 1.1, 1)
+    }
+}
+@keyframes heartbeat {
+    0%, 100%, 16%, 32% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    24%,
+    8% {
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+.social {
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.social i {
+  font-size: 1.2rem;
+  position: relative;
+  top: 3px;
+  color: #E57373;
+  animation: heartbeat 1.5s linear infinite;
+}
+
+.twitter {
+  background-color: rgb(85, 172, 238);
+  padding: 0 1rem;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.twitter:hover,
+.twitter:focus {
+  background-color: rgb(108, 183, 240);
+}
+
+.facebook {
+  background-color: rgb(59,89,152);
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+
+.facebook:hover,
+.facebook:focus {
+  background-color: rgb(66,100,170);
+}
+
+.twitter,
+.facebook {
+  margin-top: 10px;
+}
+
 /***** MOBILE FAB *****/
 .fixed-action-btn {
   right: 20px;
