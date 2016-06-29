@@ -64,10 +64,6 @@ p {
   cursor: pointer;
 }
 
-a:active {
-  background-color: orange;
-}
-
 #menu-dropdown li a:hover,
 #menu-dropdown li a:active {
   background-color: #eaeaea;
