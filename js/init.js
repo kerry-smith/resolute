@@ -14,6 +14,11 @@
       alignment: 'right' // Displays dropdown with edge aligned to the right of button
     }
   );
+  
+    $('#menu-dropdown li a').on('click', function(){
+        $("#menu-dropdown").hide();
+        $("#menu-dropdown ]").removeClass("active");
+    });
 
 
   }); // end of document ready
