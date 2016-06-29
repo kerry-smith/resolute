@@ -69,6 +69,10 @@ p {
   background-color: #eaeaea;
 }
 
+.dropdown-content li > a {
+  color: lawnGreen;
+}
+
 /***** HEADER *****/
 #header-banner .section {
   padding: 70px 0 60px;
