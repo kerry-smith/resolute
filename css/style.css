@@ -302,6 +302,10 @@ textarea.materialize-textarea {
   font-size: 1.3rem;
 }
 
+#thank-you .btn-flat {
+  color: #555;
+}
+
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
