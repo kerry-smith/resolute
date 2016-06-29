@@ -242,6 +242,7 @@ textarea.materialize-textarea {
 }
 
 .twitter {
+  color: #fff;
   background-color: rgb(85, 172, 238);
   margin-right: 5px;
   border-radius: 5px;
@@ -253,6 +254,7 @@ textarea.materialize-textarea {
 }
 
 .facebook {
+  color: #fff;
   background-color: rgb(59,89,152);
   border-radius: 5px;
 }
