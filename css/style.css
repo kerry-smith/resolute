@@ -93,6 +93,20 @@ p {
   width: 90%;
 }
 
+#services .collapsible.popout>li.active {
+  box-shadow: 0 5px 9px 0 rgba(0,0,0,0.16),0 4px 13px 0 rgba(0,0,0,0.14);
+}
+
+#services .card {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#services .collection,
+#services .collection-item {
+  border: none;
+}
+
 /***** PROCESS *****/
 #process .section {
   width: 100%;
