@@ -16,8 +16,8 @@
   );
   
     $('#menu-dropdown li a').on('click', function(){
-        $("#menu-dropdown li a").hide();
-        $("#menu-dropdown li a").removeClass("active");
+        $("#menu-dropdown").hide();
+        $("#menu-dropdown").removeClass("active");
     });
 
 
