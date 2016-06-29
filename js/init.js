@@ -18,7 +18,7 @@
     $("#menu-dropdown li a").click(function () {
         $(this).removeClass("active");
         $("#menu-dropdown").hide();
-        e.preventDefault(); /*ignores actual link*/
+        return false;
     });
 
 
