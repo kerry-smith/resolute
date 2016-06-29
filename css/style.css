@@ -242,10 +242,7 @@ textarea.materialize-textarea {
 }
 
 .twitter {
-  color: #fff;
   background-color: rgb(85, 172, 238);
-  margin-right: 5px;
-  border-radius: 5px;
 }
 
 .twitter:hover,
@@ -254,9 +251,8 @@ textarea.materialize-textarea {
 }
 
 .facebook {
-  color: #fff;
+  margin-right: 5px;
   background-color: rgb(59,89,152);
-  border-radius: 5px;
 }
 
 .facebook:hover,
@@ -266,8 +262,8 @@ textarea.materialize-textarea {
 
 .twitter,
 .facebook {
+  color: #fff;
   margin-top: 10px;
-  padding: 0 0.5rem;
 }
 
 /***** MOBILE FAB *****/
