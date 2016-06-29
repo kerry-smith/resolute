@@ -15,11 +15,6 @@
     }
   );
     
-    $("#menu-dropdown li a").click(function () {
-        $(this).removeClass("active");
-        $("#menu-dropdown").hide();
-        return false;
-    });
 
 
   }); // end of document ready
