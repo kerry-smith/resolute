@@ -64,7 +64,8 @@ p {
   cursor: pointer;
 }
 
-#menu-dropdown li a:hover {
+#menu-dropdown li a:hover,
+#menu-dropdown li a:active {
   background-color: #eaeaea;
 }
 
