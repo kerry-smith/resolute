@@ -61,6 +61,7 @@ p {
 #menu-dropdown li a {
   color: #444;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 #menu-dropdown li a:hover {
