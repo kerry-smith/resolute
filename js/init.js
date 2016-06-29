@@ -16,7 +16,7 @@
   );
     
     $("#menu-dropdown li a").click(function () {
-        $(this).toggleClass("active");
+        $(this).toggleClass();
         $("#menu-dropdown").hide();
         e.preventDefault(); /*ignores actual link*/
     });
