@@ -69,10 +69,6 @@ p {
   background-color: #eaeaea;
 }
 
-.dropdown-content li > a {
-  color: crimson;
-}
-
 /***** HEADER *****/
 #header-banner .section {
   padding: 70px 0 60px;
