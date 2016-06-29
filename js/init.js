@@ -14,10 +14,9 @@
       alignment: 'right' // Displays dropdown with edge aligned to the right of button
     }
   );
-  
-    $('#menu-dropdown li a').on('click', function(){
-        $("#menu-dropdown").hide();
-        $(".dropdown-button li a").toggleClass("active");
+    
+    $("#menu-dropdown li a").click(function () {
+        $(this).toggleClass("active");
         e.preventDefault(); /*ignores actual link*/
     });
 
