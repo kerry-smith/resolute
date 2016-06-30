@@ -30,6 +30,11 @@ p {
   font-size: 1.2rem;
 }
 
+.btn-flat {
+  color: #444;
+  border: 2px solid #444;
+}
+
 .section {
   padding: 5rem 0;
 }
@@ -129,8 +134,8 @@ input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
 input[type=tel]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #64B5F6;
-  box-shadow: 0 1px 0 0 #64B5F6;
+  border-bottom: 1px solid #555;
+  box-shadow: 0 1px 0 0 #555;
   color: #555;
 }
 
@@ -142,7 +147,7 @@ textarea.materialize-textarea {
 #contact input[type=tel]:focus + label,
 #contact input[type=email]:focus + label,
 #contact textarea.materialize-textarea:focus + label {
-  color: #64B5F6;
+  color: #555;
 }
 
 #contact .divider {
