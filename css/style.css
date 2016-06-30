@@ -30,14 +30,11 @@ p {
   font-size: 1.2rem;
 }
 
-.btn-flat {
+.btn-flat,
+.btn-flat:focus {
   color: #757575;
   background-color: transparent;
   border: 2px solid #757575;
-}
-
-.btn-flat:focus {
-  background-color: transparent;
 }
 
 .section {
@@ -89,8 +86,9 @@ p {
 }
 
 /***** ABOUT *****/
-#about .btn-large {
-  margin-top: 30px;
+#about .btn-flat {
+  display: inline;
+  padding: 1rem 2rem;
 }
 
 /***** SERVICES *****/
