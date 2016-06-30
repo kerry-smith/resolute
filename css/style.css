@@ -32,7 +32,12 @@ p {
 
 .btn-flat {
   color: #757575;
+  background-color: transparent;
   border: 2px solid #757575;
+}
+
+.btn-flat:focus {
+  background-color: transparent;
 }
 
 .section {
