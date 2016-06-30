@@ -91,6 +91,10 @@ p {
   padding: 1rem 2rem;
 }
 
+#about p {
+    margin-bottom: 60px;
+  }
+
 /***** SERVICES *****/
 #services .container {
   width: 90%;
