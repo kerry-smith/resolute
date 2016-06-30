@@ -363,8 +363,9 @@ color: #555;
   #header-banner .section {
     top: 0;
   }
-  #about .btn-large {
-    margin: 15px 0 -30px;
+  
+  #about p {
+    margin: 15px 0 30px;
   }
 
   #services .card {
