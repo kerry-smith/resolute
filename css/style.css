@@ -31,8 +31,8 @@ p {
 }
 
 .btn-flat {
-  color: #444;
-  border: 2px solid #444;
+  color: #757575;
+  border: 2px solid #757575;
 }
 
 .section {
@@ -134,8 +134,8 @@ input[type=text]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
 input[type=tel]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #444;
-  box-shadow: 0 1px 0 0 #444;
+  border-bottom: 1px solid #757575;
+  box-shadow: 0 1px 0 0 #757575;
   color: #444;
 }
 
@@ -147,7 +147,7 @@ textarea.materialize-textarea {
 #contact input[type=tel]:focus + label,
 #contact input[type=email]:focus + label,
 #contact textarea.materialize-textarea:focus + label {
-  color: #444;
+  color: #757575;
 }
 
 #contact .divider {
@@ -162,7 +162,7 @@ textarea.materialize-textarea {
 
 #contact .collection li,
 #contact .collection li a {
-    color: #666;
+    color: #757575;
 }
 
 #contact .collection li a:hover,
