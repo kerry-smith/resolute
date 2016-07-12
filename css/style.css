@@ -31,7 +31,7 @@ p {
 }
 
 .no-border {
-  border: none;
+  border: 1px solid red;
 }
 
 .btn-flat,
