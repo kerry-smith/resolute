@@ -85,8 +85,7 @@ p {
 }
 
 #menu-dropdown li a:hover,
-#menu-dropdown li a:active,
-#menu-dropdown li a:focus {
+#menu-dropdown li a:active {
   background-color: #eaeaea;
 }
 
