@@ -46,7 +46,7 @@ p {
   max-height: 80% !important;
 }
 
-.modal-action .modal-close .btn-flat a {
+a.modal-action modal-close btn-flat  {
   border: none;
 }
 
