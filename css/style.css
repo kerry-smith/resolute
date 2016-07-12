@@ -30,8 +30,8 @@ p {
   font-size: 1.2rem;
 }
 
-.no-border {
-  border: 1px solid red;
+.section {
+  padding: 5rem 0;
 }
 
 .btn-flat,
@@ -57,10 +57,6 @@ p {
   margin: 6px 0;
   color: #757575;
   background-color: transparent;
-}
-
-.section {
-  padding: 5rem 0;
 }
 
 .modal {
@@ -89,7 +85,8 @@ p {
 }
 
 #menu-dropdown li a:hover,
-#menu-dropdown li a:active {
+#menu-dropdown li a:active,
+#menu-dropdown li a:focus {
   background-color: #eaeaea;
 }
 
