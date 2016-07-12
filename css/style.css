@@ -30,6 +30,10 @@ p {
   font-size: 1.2rem;
 }
 
+.no-border {
+  border: none;
+}
+
 .btn-flat,
 .btn-flat:focus {
   color: #757575;
@@ -44,10 +48,6 @@ p {
 .modal {
   width: 85% !important;
   max-height: 80% !important;
-}
-
-a.modal.modal-fixed-footer.modal-action modal-close btn-flat  {
-  border: none;
 }
 
 /***** NAVBAR *****/
