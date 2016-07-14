@@ -292,7 +292,9 @@ textarea.materialize-textarea {
 }
 
 .twitter,
-.facebook {
+.facebook,
+.twitter:active,
+.facebook:active {
   color: #fff;
   margin-top: 10px;
   padding: 0 1rem;
