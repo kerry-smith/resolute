@@ -280,6 +280,7 @@ textarea.materialize-textarea {
 .twitter:focus {
   background-color: rgb(108, 183, 240);
   color: #fff;
+  outline: none;
 }
 
 .facebook {
@@ -291,6 +292,7 @@ textarea.materialize-textarea {
 .facebook:focus {
   background-color: rgb(66,100,170);
   color: #fff;
+  outline: none;
 }
 
 .twitter,
