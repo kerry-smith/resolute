@@ -279,6 +279,7 @@ textarea.materialize-textarea {
 .twitter:hover,
 .twitter:focus {
   background-color: rgb(108, 183, 240);
+  color: #fff;
 }
 
 .facebook {
@@ -289,6 +290,7 @@ textarea.materialize-textarea {
 .facebook:hover,
 .facebook:focus {
   background-color: rgb(66,100,170);
+  color: #fff;
 }
 
 .twitter,
