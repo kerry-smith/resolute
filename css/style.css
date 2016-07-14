@@ -289,11 +289,12 @@ textarea.materialize-textarea {
 .facebook:hover,
 .facebook:focus {
   background-color: rgb(66,100,170);
-  border: none;
 }
 
 .twitter,
-.facebook {
+.facebook,
+.twitter:visited,
+.facebook:visited {
   color: #fff;
   margin-top: 10px;
   padding: 0 1rem;
