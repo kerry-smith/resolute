@@ -2,7 +2,7 @@
   $(function(){
 
     $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({ scrollOffsetFix : 55 });
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
