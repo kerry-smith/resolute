@@ -17,7 +17,7 @@
 
 /***** NO JS NOTIFICATION *****/
 .noScript {
-  background-color: tomato;
+  background-color: #E57373;
   color: #444;
   border-radius: 2px;
   position: absolute;
