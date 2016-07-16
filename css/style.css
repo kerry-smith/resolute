@@ -356,6 +356,64 @@ textarea.materialize-textarea {
   color: #555;
 }
 
+/***** 404 PAGE *****/
+#four-oh-four a {
+  color: #3DA33D;
+}
+
+#four-oh-four h5 {
+  padding-top: 1rem;  
+  line-height: 2.5rem;
+}
+
+.icon .material-icons {
+  font-size: 4.25rem;
+  color: #003380;
+  -webkit-animation: spin 10s infinite linear;
+  animation: spin 10s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(-150deg);
+    transform: rotate(-150deg);
+  }
+  32% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+  43% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  60% {
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+  }
+  72% {
+    -webkit-transform: rotate(-124deg);
+    transform: rotate(-124deg);
+  }
+  100% {
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+  }
+}
+
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
