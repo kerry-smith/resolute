@@ -434,6 +434,11 @@ textarea.materialize-textarea {
   }
 }
 
+#four-oh-four .fixed-action-btn {
+  right: 20px;
+  bottom: 20px;
+}
+
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
