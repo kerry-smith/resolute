@@ -375,12 +375,32 @@ textarea.materialize-textarea {
 
 @-webkit-keyframes spin {
   0% {
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(-150deg);
+    transform: rotate(-150deg);
+  }
+  32% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+  43% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  60% {
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+  }
+  72% {
+    -webkit-transform: rotate(-124deg);
+    transform: rotate(-124deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
   }
 }
 @keyframes spin {
