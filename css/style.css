@@ -201,6 +201,7 @@ textarea.materialize-textarea {
 #contact .collection-item  {
   border: none;
   padding: 8px 0;
+  font-size: 1.2rem;
 }
 
 #contact .collection li,
@@ -215,7 +216,7 @@ textarea.materialize-textarea {
 
 .collection-item span {
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #555;
   margin-right: 10px;
 }
