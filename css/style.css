@@ -15,14 +15,6 @@
   background-color: rgb(0, 51, 128) !important;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-    -webkit-transition-delay: 9999s;
-    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
-}
-
 /***** NO JS NOTIFICATION *****/
 .noScript {
   background-color: #E57373;
@@ -248,6 +240,15 @@ textarea.materialize-textarea {
   background: transparent;
 }
 
+/***** REMOVES CHROME AUTOCOMPLETE COLORS *****/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
 /***** FOOTER *****/
 .page-footer ul li:first-child,
 .page-footer ul li a:first-child {
@@ -458,29 +459,29 @@ textarea.materialize-textarea {
 /***** SELECTION HIGHLIGHTS *****/
 /* Mozilla based browsers */
 ::-moz-selection {
-background-color: #FFF498;
+background-color: rgb(250,255,189);
 color: #000;
 }
 
 /* Works in Safari */
 ::selection {
-background-color: #FFF498;
+background-color: rgb(250,255,189);
 color: #555;
 }
 
 /* Works in Opera */
 ::-o-selection {
-background-color: #FFF498;
+background-color: rgb(250,255,189);
 color: #555;
 }
 ::-ms-selection {
-background-color: #FFF498;
+background-color: rgb(250,255,189);
 color: #555;
 }
 
 /* Works in Internet Explorer */
 ::-webkit-selection {
-background-color: #FFF498;
+background-color: rgb(250,255,189);
 color: #555;
 }
 
