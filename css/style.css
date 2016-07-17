@@ -375,6 +375,7 @@ textarea.materialize-textarea {
 }
 
 #four-oh-four h5 {
+  text-align: left;
   padding-top: 1rem;  
   line-height: 2.5rem;
 }
