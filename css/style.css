@@ -149,9 +149,18 @@ p {
   margin-top: -1.3rem;
 }
 
+#services .card-title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 #services .collection,
 #services .collection-item {
   border: none;
+}
+
+#services .collection-item {
+  font-size: 1.2rem;
 }
 
 /***** PROCESS *****/
