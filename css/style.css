@@ -42,6 +42,7 @@
 
 /***** GLOBAL STYLES *****/
 html {
+  font-family: "proxima-nova", sans-serif;
   background-color: #fff;
   color: #444;
 }
