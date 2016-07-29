@@ -399,7 +399,7 @@ input:-webkit-autofill:active {
 
 .icon .material-icons {
   font-size: 4.25rem;
-  color: #003380;
+  color: #323e5a;
   -webkit-animation: spin 10s infinite linear;
   animation: spin 10s infinite linear;
 }
