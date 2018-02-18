@@ -118,6 +118,10 @@ p {
 }
 
 /***** ABOUT *****/
+#about .section {
+  width: 100%;
+}
+
 #about .btn-flat {
   display: inline;
   padding: 1rem 2rem;
