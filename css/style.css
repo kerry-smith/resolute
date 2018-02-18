@@ -23,6 +23,14 @@
   background-color: rgb(0, 51, 128) !important;
 }
 
+.lighter-grey {
+  background-color: rgb(169,169,169) !important;
+}
+
+.darker-grey {
+  background-color: rgb(128,128,128) !important;
+}
+
 /***** NO JS NOTIFICATION *****/
 .noScript {
   background-color: #E57373;
